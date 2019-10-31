@@ -1,0 +1,36 @@
+body 
+{
+    text-align: center;
+}
+
+button
+{
+    width: 35px;
+    height: 35px;
+}
+
+p
+{
+    text-align: left;
+    font-weight: bold;
+}
+
+footer
+{
+    text-align: left;
+}
+
+#conteneur
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+#memory
+{
+    font-size: 25px;
+}
+
+#calculette
+{
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>calculator</title>
+</head>
+<body>
+    <header>
+       <p>
+           Here our calculator, it must do the basic operation and also allow the user to remenber all
+           the operations that he did by registering them at the bottom of the page!
+       </p>
+    </header>
+    <section >
+
+        <div id="conteneur">
+            <div id="calculette">
+                <div>
+                    <button id="reset" onclick="reset_clicked()">C</button>
+                    <button id="power" onclick="power_clicked()">x^2</button>
+                    <button id="inverse" onclick="inverse_clicked()">1/x</button>
+                    <button id="/" onclick="button_clicked(this.id)">÷</button>
+                </div>   
+                <div>
+                    <button id="7" onclick="button_clicked(this.id)">7</button>
+                    <button id="8" onclick="button_clicked(this.id)">8</button>
+                    <button id="9" onclick="button_clicked(this.id)">9</button>
+                    <button id="*" onclick="button_clicked(this.id)">*</button>
+                </div>
+                <div>
+                    <button id="4" onclick="button_clicked(this.id)">4</button>
+                    <button id="5" onclick="button_clicked(this.id)">5</button>
+                    <button id="6" onclick="button_clicked(this.id)">6</button>
+                    <button id="+" onclick="button_clicked(this.id)">+</button>
+                </div>
+                <div>
+                    <button id="1" onclick="button_clicked(this.id)">1</button>
+                    <button id="2" onclick="button_clicked(this.id)">2</button>
+                    <button id="3" onclick="button_clicked(this.id)">3</button>
+                    <button id="-" onclick="button_clicked(this.id)">-</button>
+                </div>
+                <div>
+                    <button id="signe" onclick="sign_clicked()">+/-</button>
+                    <button id="0" onclick="button_clicked(this.id)">0</button>
+                    <button id="." onclick="button_clicked(this.id)">,</button>
+                    <button id="=" onclick="equal_clicked()">=</button>
+                </div>
+            </div>
+            <div id="memory"></div>
+         </div>   
+
+    </section>
+    <footer>
+        <div id="footer">
+        </div>
+    </footer>
+
+    <script src="myscript.js"></script>
+</body>
+
+
+</html>
